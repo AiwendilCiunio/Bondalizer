@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Bond {
-    Scanner scanner;
+    private Scanner scanner;
     private String name;
     private String surname;
 
@@ -29,7 +29,7 @@ public class Bond {
     public String getSurname() {
         return surname;
     }
-    
+
     public void bondalize() {
         StringBuilder sb = new StringBuilder();
         sb.append("Your name is ");
