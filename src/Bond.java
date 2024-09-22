@@ -29,6 +29,7 @@ public class Bond {
     public String getSurname() {
         return surname;
     }
+    
     public void bondalize() {
         StringBuilder sb = new StringBuilder();
         sb.append("Your name is ");
